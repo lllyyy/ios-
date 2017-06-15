@@ -1,0 +1,1070 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		355312621EE639D600501D65 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355DA0281EDFF0A2003F24DF /* TodayViewController.m */; };
+		355312671EE63CB000501D65 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355312661EE63CB000501D65 /* Media.xcassets */; };
+		3554B0D51EF1184D00F7C0E7 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3554B0D41EF1184D00F7C0E7 /* SocketRocket.framework */; };
+		3554B0D81EF118E600F7C0E7 /* WeexObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3554B0D71EF118E600F7C0E7 /* WeexObjc.m */; };
+		3554B0DA1EF11A7000F7C0E7 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3554B0D91EF11A7000F7C0E7 /* SDWebImage.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		355AF02B1EE7D91C0027F2F4 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355AF02A1EE7D91C0027F2F4 /* HomeKit.framework */; };
+		355DA0251EDFF0A2003F24DF /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355DA0241EDFF0A2003F24DF /* NotificationCenter.framework */; };
+		355DA0291EDFF0A2003F24DF /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355DA0281EDFF0A2003F24DF /* TodayViewController.m */; };
+		355DA0301EDFF0A2003F24DF /* lyiOS 10 Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 355DA0231EDFF0A2003F24DF /* lyiOS 10 Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		355DA0401EE00662003F24DF /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355DA03F1EE00662003F24DF /* ActionViewController.m */; };
+		355DA0431EE00662003F24DF /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355DA0411EE00662003F24DF /* MainInterface.storyboard */; };
+		355DA0471EE00662003F24DF /* lyiOS Action.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 355DA03C1EE00662003F24DF /* lyiOS Action.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		355DA0541EE0099E003F24DF /* CallDirectoryHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 355DA0531EE0099E003F24DF /* CallDirectoryHandler.m */; };
+		355DA0581EE0099E003F24DF /* lycall.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 355DA0501EE0099E003F24DF /* lycall.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		355DA05F1EE01685003F24DF /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 355DA05E1EE01685003F24DF /* QMUIConfigurationTemplate.m */; };
+		3598E50D1E9B2B9800F0F07B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3598E50C1E9B2B9800F0F07B /* main.m */; };
+		3598E5101E9B2B9800F0F07B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3598E50F1E9B2B9800F0F07B /* AppDelegate.m */; };
+		3598E5131E9B2B9800F0F07B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3598E5121E9B2B9800F0F07B /* ViewController.m */; };
+		3598E5181E9B2B9800F0F07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3598E5171E9B2B9800F0F07B /* Assets.xcassets */; };
+		3598E51B1E9B2B9800F0F07B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3598E5191E9B2B9800F0F07B /* LaunchScreen.storyboard */; };
+		3598E5261E9B2B9900F0F07B /* TpodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3598E5251E9B2B9900F0F07B /* TpodTests.m */; };
+		3598E5311E9B2B9900F0F07B /* TpodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3598E5301E9B2B9900F0F07B /* TpodUITests.m */; };
+		3599C6C51EEE26B7005C5C90 /* MMtableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3599C6C41EEE26B7005C5C90 /* MMtableSection.m */; };
+		3599C6C81EEE26E0005C5C90 /* MMsectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3599C6C71EEE26E0005C5C90 /* MMsectionTableViewController.m */; };
+		3599C6D11EEE2D2E005C5C90 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3599C6D01EEE2D2E005C5C90 /* ResultsViewController.m */; };
+		B8732C9DBFD61715FB827985 /* Pods_Tpod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A01648246F57712072846C1 /* Pods_Tpod.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		355DA02E1EDFF0A2003F24DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3598E5001E9B2B9800F0F07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 355DA0221EDFF0A2003F24DF;
+			remoteInfo = "lyiOS 10 Widget";
+		};
+		355DA0451EE00662003F24DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3598E5001E9B2B9800F0F07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 355DA03B1EE00662003F24DF;
+			remoteInfo = "lyiOS Action";
+		};
+		355DA0561EE0099E003F24DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3598E5001E9B2B9800F0F07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 355DA04F1EE0099E003F24DF;
+			remoteInfo = lycall;
+		};
+		3598E5221E9B2B9900F0F07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3598E5001E9B2B9800F0F07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3598E5071E9B2B9800F0F07B;
+			remoteInfo = Tpod;
+		};
+		3598E52D1E9B2B9900F0F07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3598E5001E9B2B9800F0F07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3598E5071E9B2B9800F0F07B;
+			remoteInfo = Tpod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		355DA0341EDFF0A2003F24DF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				355DA0471EE00662003F24DF /* lyiOS Action.appex in Embed App Extensions */,
+				355DA0581EE0099E003F24DF /* lycall.appex in Embed App Extensions */,
+				355DA0301EDFF0A2003F24DF /* lyiOS 10 Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		355312631EE63C4100501D65 /* Pods_Tpod.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Tpod.framework; path = "Pods/../build/Debug-iphoneos/Pods_Tpod.framework"; sourceTree = "<group>"; };
+		355312661EE63CB000501D65 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		3554B0D21EF1184700F7C0E7 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "Pods/../build/Debug-iphoneos/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
+		3554B0D41EF1184D00F7C0E7 /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = "Pods/../build/Debug-iphoneos/SocketRocket/SocketRocket.framework"; sourceTree = "<group>"; };
+		3554B0D61EF118E600F7C0E7 /* WeexObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeexObjc.h; sourceTree = "<group>"; };
+		3554B0D71EF118E600F7C0E7 /* WeexObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeexObjc.m; sourceTree = "<group>"; };
+		3554B0D91EF11A7000F7C0E7 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "Pods/../build/Debug-iphoneos/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
+		355AF02A1EE7D91C0027F2F4 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		355DA0231EDFF0A2003F24DF /* lyiOS 10 Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "lyiOS 10 Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		355DA0241EDFF0A2003F24DF /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		355DA0271EDFF0A2003F24DF /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		355DA0281EDFF0A2003F24DF /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		355DA02D1EDFF0A2003F24DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355DA03C1EE00662003F24DF /* lyiOS Action.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "lyiOS Action.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		355DA03E1EE00662003F24DF /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		355DA03F1EE00662003F24DF /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		355DA0421EE00662003F24DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		355DA0441EE00662003F24DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355DA04B1EE008CA003F24DF /* Tpod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tpod.entitlements; sourceTree = "<group>"; };
+		355DA0501EE0099E003F24DF /* lycall.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = lycall.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		355DA0521EE0099E003F24DF /* CallDirectoryHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallDirectoryHandler.h; sourceTree = "<group>"; };
+		355DA0531EE0099E003F24DF /* CallDirectoryHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallDirectoryHandler.m; sourceTree = "<group>"; };
+		355DA0551EE0099E003F24DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355DA05D1EE01685003F24DF /* QMUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplate.h; sourceTree = "<group>"; };
+		355DA05E1EE01685003F24DF /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
+		3598E5081E9B2B9800F0F07B /* Tpod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tpod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3598E50C1E9B2B9800F0F07B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3598E50E1E9B2B9800F0F07B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3598E50F1E9B2B9800F0F07B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3598E5111E9B2B9800F0F07B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3598E5121E9B2B9800F0F07B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		3598E5171E9B2B9800F0F07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3598E51A1E9B2B9800F0F07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3598E51C1E9B2B9800F0F07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3598E5211E9B2B9900F0F07B /* TpodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TpodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3598E5251E9B2B9900F0F07B /* TpodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TpodTests.m; sourceTree = "<group>"; };
+		3598E5271E9B2B9900F0F07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3598E52C1E9B2B9900F0F07B /* TpodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TpodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3598E5301E9B2B9900F0F07B /* TpodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TpodUITests.m; sourceTree = "<group>"; };
+		3598E5321E9B2B9900F0F07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3599C6C31EEE26B7005C5C90 /* MMtableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMtableSection.h; sourceTree = "<group>"; };
+		3599C6C41EEE26B7005C5C90 /* MMtableSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMtableSection.m; sourceTree = "<group>"; };
+		3599C6C61EEE26E0005C5C90 /* MMsectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMsectionTableViewController.h; sourceTree = "<group>"; };
+		3599C6C71EEE26E0005C5C90 /* MMsectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMsectionTableViewController.m; sourceTree = "<group>"; };
+		3599C6CF1EEE2D2E005C5C90 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		3599C6D01EEE2D2E005C5C90 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		45BEDCACAA7BA50DD1800FC6 /* Pods-Tpod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tpod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tpod/Pods-Tpod.debug.xcconfig"; sourceTree = "<group>"; };
+		70EC1D88108A6FC47FAD8389 /* Pods-Tpod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tpod.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tpod/Pods-Tpod.release.xcconfig"; sourceTree = "<group>"; };
+		8A01648246F57712072846C1 /* Pods_Tpod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tpod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		355DA0201EDFF0A2003F24DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355DA0251EDFF0A2003F24DF /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355DA0391EE00662003F24DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355DA04D1EE0099E003F24DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3598E5051E9B2B9800F0F07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3554B0DA1EF11A7000F7C0E7 /* SDWebImage.framework in Frameworks */,
+				3554B0D51EF1184D00F7C0E7 /* SocketRocket.framework in Frameworks */,
+				355AF02B1EE7D91C0027F2F4 /* HomeKit.framework in Frameworks */,
+				B8732C9DBFD61715FB827985 /* Pods_Tpod.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3598E51E1E9B2B9900F0F07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3598E5291E9B2B9900F0F07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		355312651EE63C7100501D65 /* ResDataSout */ = {
+			isa = PBXGroup;
+			children = (
+				355312661EE63CB000501D65 /* Media.xcassets */,
+			);
+			name = ResDataSout;
+			sourceTree = "<group>";
+		};
+		355DA0261EDFF0A2003F24DF /* lyiOS 10 Widget */ = {
+			isa = PBXGroup;
+			children = (
+				355312651EE63C7100501D65 /* ResDataSout */,
+				355DA0271EDFF0A2003F24DF /* TodayViewController.h */,
+				355DA0281EDFF0A2003F24DF /* TodayViewController.m */,
+				355DA02D1EDFF0A2003F24DF /* Info.plist */,
+			);
+			path = "lyiOS 10 Widget";
+			sourceTree = "<group>";
+		};
+		355DA03D1EE00662003F24DF /* lyiOS Action */ = {
+			isa = PBXGroup;
+			children = (
+				355DA03E1EE00662003F24DF /* ActionViewController.h */,
+				355DA03F1EE00662003F24DF /* ActionViewController.m */,
+				355DA0411EE00662003F24DF /* MainInterface.storyboard */,
+				355DA0441EE00662003F24DF /* Info.plist */,
+			);
+			path = "lyiOS Action";
+			sourceTree = "<group>";
+		};
+		355DA0511EE0099E003F24DF /* lycall */ = {
+			isa = PBXGroup;
+			children = (
+				355DA0521EE0099E003F24DF /* CallDirectoryHandler.h */,
+				355DA0531EE0099E003F24DF /* CallDirectoryHandler.m */,
+				355DA0551EE0099E003F24DF /* Info.plist */,
+			);
+			path = lycall;
+			sourceTree = "<group>";
+		};
+		355DA05C1EE01685003F24DF /* QMUIConfigurationTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				355DA05D1EE01685003F24DF /* QMUIConfigurationTemplate.h */,
+				355DA05E1EE01685003F24DF /* QMUIConfigurationTemplate.m */,
+			);
+			name = QMUIConfigurationTemplate;
+			path = Pods/QMUIKit/QMUIConfigurationTemplate;
+			sourceTree = "<group>";
+		};
+		3598E4FF1E9B2B9800F0F07B = {
+			isa = PBXGroup;
+			children = (
+				355DA05C1EE01685003F24DF /* QMUIConfigurationTemplate */,
+				3598E50A1E9B2B9800F0F07B /* Tpod */,
+				3598E5241E9B2B9900F0F07B /* TpodTests */,
+				3598E52F1E9B2B9900F0F07B /* TpodUITests */,
+				355DA0261EDFF0A2003F24DF /* lyiOS 10 Widget */,
+				355DA03D1EE00662003F24DF /* lyiOS Action */,
+				355DA0511EE0099E003F24DF /* lycall */,
+				3598E5091E9B2B9800F0F07B /* Products */,
+				7B146A36EC4BC934711BB9E6 /* Pods */,
+				6E8CE1434835ED38F90AC9C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3598E5091E9B2B9800F0F07B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3598E5081E9B2B9800F0F07B /* Tpod.app */,
+				3598E5211E9B2B9900F0F07B /* TpodTests.xctest */,
+				3598E52C1E9B2B9900F0F07B /* TpodUITests.xctest */,
+				355DA0231EDFF0A2003F24DF /* lyiOS 10 Widget.appex */,
+				355DA03C1EE00662003F24DF /* lyiOS Action.appex */,
+				355DA0501EE0099E003F24DF /* lycall.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3598E50A1E9B2B9800F0F07B /* Tpod */ = {
+			isa = PBXGroup;
+			children = (
+				355DA04B1EE008CA003F24DF /* Tpod.entitlements */,
+				3598E50E1E9B2B9800F0F07B /* AppDelegate.h */,
+				3598E50F1E9B2B9800F0F07B /* AppDelegate.m */,
+				3598E5111E9B2B9800F0F07B /* ViewController.h */,
+				3598E5121E9B2B9800F0F07B /* ViewController.m */,
+				3599C6C61EEE26E0005C5C90 /* MMsectionTableViewController.h */,
+				3599C6C71EEE26E0005C5C90 /* MMsectionTableViewController.m */,
+				3599C6C31EEE26B7005C5C90 /* MMtableSection.h */,
+				3599C6C41EEE26B7005C5C90 /* MMtableSection.m */,
+				3599C6CF1EEE2D2E005C5C90 /* ResultsViewController.h */,
+				3599C6D01EEE2D2E005C5C90 /* ResultsViewController.m */,
+				3554B0D61EF118E600F7C0E7 /* WeexObjc.h */,
+				3554B0D71EF118E600F7C0E7 /* WeexObjc.m */,
+				3598E5171E9B2B9800F0F07B /* Assets.xcassets */,
+				3598E5191E9B2B9800F0F07B /* LaunchScreen.storyboard */,
+				3598E51C1E9B2B9800F0F07B /* Info.plist */,
+				3598E50B1E9B2B9800F0F07B /* Supporting Files */,
+			);
+			path = Tpod;
+			sourceTree = "<group>";
+		};
+		3598E50B1E9B2B9800F0F07B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3598E50C1E9B2B9800F0F07B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3598E5241E9B2B9900F0F07B /* TpodTests */ = {
+			isa = PBXGroup;
+			children = (
+				3598E5251E9B2B9900F0F07B /* TpodTests.m */,
+				3598E5271E9B2B9900F0F07B /* Info.plist */,
+			);
+			path = TpodTests;
+			sourceTree = "<group>";
+		};
+		3598E52F1E9B2B9900F0F07B /* TpodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3598E5301E9B2B9900F0F07B /* TpodUITests.m */,
+				3598E5321E9B2B9900F0F07B /* Info.plist */,
+			);
+			path = TpodUITests;
+			sourceTree = "<group>";
+		};
+		6E8CE1434835ED38F90AC9C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3554B0D91EF11A7000F7C0E7 /* SDWebImage.framework */,
+				3554B0D41EF1184D00F7C0E7 /* SocketRocket.framework */,
+				3554B0D21EF1184700F7C0E7 /* SDWebImage.framework */,
+				355AF02A1EE7D91C0027F2F4 /* HomeKit.framework */,
+				355312631EE63C4100501D65 /* Pods_Tpod.framework */,
+				8A01648246F57712072846C1 /* Pods_Tpod.framework */,
+				355DA0241EDFF0A2003F24DF /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B146A36EC4BC934711BB9E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45BEDCACAA7BA50DD1800FC6 /* Pods-Tpod.debug.xcconfig */,
+				70EC1D88108A6FC47FAD8389 /* Pods-Tpod.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		355DA0221EDFF0A2003F24DF /* lyiOS 10 Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 355DA0311EDFF0A2003F24DF /* Build configuration list for PBXNativeTarget "lyiOS 10 Widget" */;
+			buildPhases = (
+				355DA01F1EDFF0A2003F24DF /* Sources */,
+				355DA0201EDFF0A2003F24DF /* Frameworks */,
+				355DA0211EDFF0A2003F24DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lyiOS 10 Widget";
+			productName = "lyiOS 10 Widget";
+			productReference = 355DA0231EDFF0A2003F24DF /* lyiOS 10 Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		355DA03B1EE00662003F24DF /* lyiOS Action */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 355DA0481EE00662003F24DF /* Build configuration list for PBXNativeTarget "lyiOS Action" */;
+			buildPhases = (
+				355DA0381EE00662003F24DF /* Sources */,
+				355DA0391EE00662003F24DF /* Frameworks */,
+				355DA03A1EE00662003F24DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lyiOS Action";
+			productName = "lyiOS Action";
+			productReference = 355DA03C1EE00662003F24DF /* lyiOS Action.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		355DA04F1EE0099E003F24DF /* lycall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 355DA0591EE0099E003F24DF /* Build configuration list for PBXNativeTarget "lycall" */;
+			buildPhases = (
+				355DA04C1EE0099E003F24DF /* Sources */,
+				355DA04D1EE0099E003F24DF /* Frameworks */,
+				355DA04E1EE0099E003F24DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lycall;
+			productName = lycall;
+			productReference = 355DA0501EE0099E003F24DF /* lycall.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		3598E5071E9B2B9800F0F07B /* Tpod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3598E5351E9B2B9900F0F07B /* Build configuration list for PBXNativeTarget "Tpod" */;
+			buildPhases = (
+				675CDE7ABDFFE4EBCD4BBF77 /* [CP] Check Pods Manifest.lock */,
+				3598E5041E9B2B9800F0F07B /* Sources */,
+				3598E5051E9B2B9800F0F07B /* Frameworks */,
+				3598E5061E9B2B9800F0F07B /* Resources */,
+				25A8425001FC9C4CCA9F7119 /* [CP] Embed Pods Frameworks */,
+				E8A5F01D74532397B7382F2C /* [CP] Copy Pods Resources */,
+				355DA0341EDFF0A2003F24DF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				355DA02F1EDFF0A2003F24DF /* PBXTargetDependency */,
+				355DA0461EE00662003F24DF /* PBXTargetDependency */,
+				355DA0571EE0099E003F24DF /* PBXTargetDependency */,
+			);
+			name = Tpod;
+			productName = Tpod;
+			productReference = 3598E5081E9B2B9800F0F07B /* Tpod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3598E5201E9B2B9900F0F07B /* TpodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3598E5381E9B2B9900F0F07B /* Build configuration list for PBXNativeTarget "TpodTests" */;
+			buildPhases = (
+				3598E51D1E9B2B9900F0F07B /* Sources */,
+				3598E51E1E9B2B9900F0F07B /* Frameworks */,
+				3598E51F1E9B2B9900F0F07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3598E5231E9B2B9900F0F07B /* PBXTargetDependency */,
+			);
+			name = TpodTests;
+			productName = TpodTests;
+			productReference = 3598E5211E9B2B9900F0F07B /* TpodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3598E52B1E9B2B9900F0F07B /* TpodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3598E53B1E9B2B9900F0F07B /* Build configuration list for PBXNativeTarget "TpodUITests" */;
+			buildPhases = (
+				3598E5281E9B2B9900F0F07B /* Sources */,
+				3598E5291E9B2B9900F0F07B /* Frameworks */,
+				3598E52A1E9B2B9900F0F07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3598E52E1E9B2B9900F0F07B /* PBXTargetDependency */,
+			);
+			name = TpodUITests;
+			productName = TpodUITests;
+			productReference = 3598E52C1E9B2B9900F0F07B /* TpodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3598E5001E9B2B9800F0F07B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "卢杨";
+				TargetAttributes = {
+					355DA0221EDFF0A2003F24DF = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 4B32A2NAWG;
+						ProvisioningStyle = Automatic;
+					};
+					355DA03B1EE00662003F24DF = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 4B32A2NAWG;
+						ProvisioningStyle = Automatic;
+					};
+					355DA04F1EE0099E003F24DF = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 4B32A2NAWG;
+						ProvisioningStyle = Automatic;
+					};
+					3598E5071E9B2B9800F0F07B = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 4B32A2NAWG;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
+					};
+					3598E5201E9B2B9900F0F07B = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 4B32A2NAWG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3598E5071E9B2B9800F0F07B;
+					};
+					3598E52B1E9B2B9900F0F07B = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 4B32A2NAWG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3598E5071E9B2B9800F0F07B;
+					};
+				};
+			};
+			buildConfigurationList = 3598E5031E9B2B9800F0F07B /* Build configuration list for PBXProject "Tpod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3598E4FF1E9B2B9800F0F07B;
+			productRefGroup = 3598E5091E9B2B9800F0F07B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3598E5071E9B2B9800F0F07B /* Tpod */,
+				3598E5201E9B2B9900F0F07B /* TpodTests */,
+				3598E52B1E9B2B9900F0F07B /* TpodUITests */,
+				355DA0221EDFF0A2003F24DF /* lyiOS 10 Widget */,
+				355DA03B1EE00662003F24DF /* lyiOS Action */,
+				355DA04F1EE0099E003F24DF /* lycall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		355DA0211EDFF0A2003F24DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355312671EE63CB000501D65 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355DA03A1EE00662003F24DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355DA0431EE00662003F24DF /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355DA04E1EE0099E003F24DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3598E5061E9B2B9800F0F07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3598E51B1E9B2B9800F0F07B /* LaunchScreen.storyboard in Resources */,
+				3598E5181E9B2B9800F0F07B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3598E51F1E9B2B9900F0F07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3598E52A1E9B2B9900F0F07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25A8425001FC9C4CCA9F7119 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tpod/Pods-Tpod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		675CDE7ABDFFE4EBCD4BBF77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8A5F01D74532397B7382F2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tpod/Pods-Tpod-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		355DA01F1EDFF0A2003F24DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355DA0291EDFF0A2003F24DF /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355DA0381EE00662003F24DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355DA0401EE00662003F24DF /* ActionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355DA04C1EE0099E003F24DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355DA0541EE0099E003F24DF /* CallDirectoryHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3598E5041E9B2B9800F0F07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3598E5131E9B2B9800F0F07B /* ViewController.m in Sources */,
+				3598E5101E9B2B9800F0F07B /* AppDelegate.m in Sources */,
+				355DA05F1EE01685003F24DF /* QMUIConfigurationTemplate.m in Sources */,
+				3599C6D11EEE2D2E005C5C90 /* ResultsViewController.m in Sources */,
+				3598E50D1E9B2B9800F0F07B /* main.m in Sources */,
+				3599C6C81EEE26E0005C5C90 /* MMsectionTableViewController.m in Sources */,
+				3599C6C51EEE26B7005C5C90 /* MMtableSection.m in Sources */,
+				355312621EE639D600501D65 /* TodayViewController.m in Sources */,
+				3554B0D81EF118E600F7C0E7 /* WeexObjc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3598E51D1E9B2B9900F0F07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3598E5261E9B2B9900F0F07B /* TpodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3598E5281E9B2B9900F0F07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3598E5311E9B2B9900F0F07B /* TpodUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		355DA02F1EDFF0A2003F24DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 355DA0221EDFF0A2003F24DF /* lyiOS 10 Widget */;
+			targetProxy = 355DA02E1EDFF0A2003F24DF /* PBXContainerItemProxy */;
+		};
+		355DA0461EE00662003F24DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 355DA03B1EE00662003F24DF /* lyiOS Action */;
+			targetProxy = 355DA0451EE00662003F24DF /* PBXContainerItemProxy */;
+		};
+		355DA0571EE0099E003F24DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 355DA04F1EE0099E003F24DF /* lycall */;
+			targetProxy = 355DA0561EE0099E003F24DF /* PBXContainerItemProxy */;
+		};
+		3598E5231E9B2B9900F0F07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3598E5071E9B2B9800F0F07B /* Tpod */;
+			targetProxy = 3598E5221E9B2B9900F0F07B /* PBXContainerItemProxy */;
+		};
+		3598E52E1E9B2B9900F0F07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3598E5071E9B2B9800F0F07B /* Tpod */;
+			targetProxy = 3598E52D1E9B2B9900F0F07B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		355DA0411EE00662003F24DF /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				355DA0421EE00662003F24DF /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		3598E5191E9B2B9800F0F07B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3598E51A1E9B2B9800F0F07B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		355DA0321EDFF0A2003F24DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4B32A2NAWG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "lyiOS 10 Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tpod.lyiOS-10-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		355DA0331EDFF0A2003F24DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4B32A2NAWG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "lyiOS 10 Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tpod.lyiOS-10-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		355DA0491EE00662003F24DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4B32A2NAWG;
+				INFOPLIST_FILE = "lyiOS Action/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tpod.lyiOS-Action";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		355DA04A1EE00662003F24DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4B32A2NAWG;
+				INFOPLIST_FILE = "lyiOS Action/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tpod.lyiOS-Action";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		355DA05A1EE0099E003F24DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEVELOPMENT_TEAM = 4B32A2NAWG;
+				INFOPLIST_FILE = lycall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tpod.lycall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		355DA05B1EE0099E003F24DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEVELOPMENT_TEAM = 4B32A2NAWG;
+				INFOPLIST_FILE = lycall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tpod.lycall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3598E5331E9B2B9900F0F07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3598E5341E9B2B9900F0F07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3598E5361E9B2B9900F0F07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45BEDCACAA7BA50DD1800FC6 /* Pods-Tpod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tpod/Tpod.entitlements;
+				DEVELOPMENT_TEAM = 4B32A2NAWG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SocketRocket",
+				);
+				INFOPLIST_FILE = Tpod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tpod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3598E5371E9B2B9900F0F07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70EC1D88108A6FC47FAD8389 /* Pods-Tpod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tpod/Tpod.entitlements;
+				DEVELOPMENT_TEAM = 4B32A2NAWG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SocketRocket",
+				);
+				INFOPLIST_FILE = Tpod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tpod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3598E5391E9B2B9900F0F07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4B32A2NAWG;
+				INFOPLIST_FILE = TpodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TpodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tpod.app/Tpod";
+			};
+			name = Debug;
+		};
+		3598E53A1E9B2B9900F0F07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4B32A2NAWG;
+				INFOPLIST_FILE = TpodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TpodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tpod.app/Tpod";
+			};
+			name = Release;
+		};
+		3598E53C1E9B2B9900F0F07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4B32A2NAWG;
+				INFOPLIST_FILE = TpodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TpodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tpod;
+			};
+			name = Debug;
+		};
+		3598E53D1E9B2B9900F0F07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4B32A2NAWG;
+				INFOPLIST_FILE = TpodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TpodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tpod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		355DA0311EDFF0A2003F24DF /* Build configuration list for PBXNativeTarget "lyiOS 10 Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				355DA0321EDFF0A2003F24DF /* Debug */,
+				355DA0331EDFF0A2003F24DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		355DA0481EE00662003F24DF /* Build configuration list for PBXNativeTarget "lyiOS Action" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				355DA0491EE00662003F24DF /* Debug */,
+				355DA04A1EE00662003F24DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		355DA0591EE0099E003F24DF /* Build configuration list for PBXNativeTarget "lycall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				355DA05A1EE0099E003F24DF /* Debug */,
+				355DA05B1EE0099E003F24DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3598E5031E9B2B9800F0F07B /* Build configuration list for PBXProject "Tpod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3598E5331E9B2B9900F0F07B /* Debug */,
+				3598E5341E9B2B9900F0F07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3598E5351E9B2B9900F0F07B /* Build configuration list for PBXNativeTarget "Tpod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3598E5361E9B2B9900F0F07B /* Debug */,
+				3598E5371E9B2B9900F0F07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3598E5381E9B2B9900F0F07B /* Build configuration list for PBXNativeTarget "TpodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3598E5391E9B2B9900F0F07B /* Debug */,
+				3598E53A1E9B2B9900F0F07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3598E53B1E9B2B9900F0F07B /* Build configuration list for PBXNativeTarget "TpodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3598E53C1E9B2B9900F0F07B /* Debug */,
+				3598E53D1E9B2B9900F0F07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3598E5001E9B2B9800F0F07B /* Project object */;
+}

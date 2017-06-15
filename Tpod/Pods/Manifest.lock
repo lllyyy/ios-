@@ -1,0 +1,34 @@
+PODS:
+  - QMUIKit (1.5.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SnapKit (3.2.0)
+  - SocketRocket (0.5.1)
+  - WeexSDK (0.11.0):
+    - SocketRocket
+  - YetAnotherAnimationLibrary (1.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - QMUIKit
+  - SDWebImage
+  - SnapKit
+  - WeexSDK
+  - YetAnotherAnimationLibrary
+  - YYKit
+
+SPEC CHECKSUMS:
+  QMUIKit: 26665f0374366b83cb840b6111d2430ddbfc7a9b
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  WeexSDK: f9cfe6adc91fba3ca5e36bc9808bf1b6e8be2106
+  YetAnotherAnimationLibrary: 9b159e57cf30322f41cddb42fded778a3a146925
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 4930e98027dee7259857132a7fa8701ee5aabb77
+
+COCOAPODS: 1.2.1
